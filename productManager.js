@@ -4,9 +4,9 @@ class ProductManager {
     #path;
     static idProduct=0;
     constructor() {
-        this.#products = this.#readProductsInFile();
         //this.#products = [];
         this.#path='./data/products.json';
+        this.#products = this.#readProductsInFile();
     }
 
     #readProductsInFile () { 

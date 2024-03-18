@@ -2,6 +2,11 @@ const ProductManager = require("./productManager");
 
 const producto = new ProductManager();
 
+//Mostrar los productos, para probar la corrección del path
+// console.log("---------------------------------------------------------------------------------");
+// console.log("Productos guardados");
+// console.log(producto.getProducts());
+
 console.log("---------------------------------------------------------------------------------");
 console.log("Agregando productos");
 //title, descrption, price, thumbnail, code, stock
